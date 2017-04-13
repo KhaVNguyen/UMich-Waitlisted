@@ -74,7 +74,6 @@ function escape() {
         "I can't let that happen. Sorry.",
         "I don't give up that easily.",
         "It's gonna take more than that to stop me.",
-        "Try again.",
         "Not so fast.",
         "Deferred.",
         "Deferred, then waitlisted. How could you?!?",
@@ -82,6 +81,12 @@ function escape() {
         "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
         "This is what happens when you give a second semester senior too much free time",
         "Wrong button.",
+        "Faster, please.",
+        "Really? :'(",
+        "Are you sure?",
+        "Getting deferred from UMich is like asking your high school crush to Prom, and her saying she'll get back to you in 3 months. Getting waitlisted after that is like her saying she'll go with you if her first thousands of choices decide not to go.",
+        "Getting deferred from UMich is like asking your high school crush to Prom, and her saying she'll get back to you in 3 months. Getting waitlisted after that is like her saying she'll go with you if her first thousands of choices decide not to go."
+
 
     ]
 
