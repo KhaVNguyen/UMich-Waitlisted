@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "25568",
 "files": {
+	"\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/index-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -24,11 +34,11 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/scripts\/index.js": {
+	"\/js\/index.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/scripts\/index-min.js",
+		"oAP": "\/js\/index-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -45,16 +55,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/styles\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles\/style-min.css",
-		"oF": 0,
-		"oS": 0
 		}
 	},
 "hooks": [
