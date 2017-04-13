@@ -92,8 +92,8 @@ function escape() {
 
     console.log("Height: " + screenHeight);
     console.log("Width: " + screenWidth);
-    var right = Math.random() * screenWidth * .90;
-    var top = Math.random() * screenHeight * .90;
+    var right = Math.random() * screenWidth * .80;
+    var top = Math.random() * screenHeight * .80;
     console.log("Right:" + right);
     console.log("Top: " + top);
     $(this).css({
