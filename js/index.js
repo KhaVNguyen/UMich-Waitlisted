@@ -17,9 +17,9 @@ $(function () {
         "Deferred, then waitlisted. How could you?!?",
         "Woah woah woah.",
         "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
-        "This is what happens when you give a second semester senior a whole lot of free time and bitterness.",
+        "This is what happens when you give a second semester senior too much free time",
         "Wrong button.",
-        
+
     ]
 
     $("#nope").on({
@@ -36,7 +36,20 @@ $(function () {
             var error = errorMessages[Math.floor(Math.random()*errorMessages.length)]
             console.log(error)
             $("#message").text(error);
-
+        },
+        click: function () {
+             var right = Math.random() * screenWidth * .90;
+            var top = Math.random() * screenHeight * .90;
+            console.log("Right:" + right);
+            console.log("Top: " + top);
+            $(this).css({
+                position: "fixed",
+                right: right + "px",
+                top: top + "px",
+            });
+            var error = errorMessages[Math.floor(Math.random()*errorMessages.length)]
+            console.log(error)
+            $("#message").text(error);
         }
     });
     $("#yep").on({
