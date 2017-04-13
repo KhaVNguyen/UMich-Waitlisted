@@ -1,8 +1,4 @@
 $(function () {
-    // $("#nope").on({
-    //     mouseover: escape(),
-    //     click: escape()
-    // });
     $("#nope").click(escape);
     $("#nope").mouseover(escape);
 
