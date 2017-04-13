@@ -1,57 +1,11 @@
 $(function () {
-    var screenHeight = screen.availHeight;
-    var screenWidth = screen.availWidth;
+    // $("#nope").on({
+    //     mouseover: escape(),
+    //     click: escape()
+    // });
+    $("#nope").click(escape);
+    $("#nope").mouseover(escape);
 
-    console.log("Height: " + screenHeight);
-    console.log("Width: " + screenWidth);
-
-    var errorMessages = [
-        "Nope, can't let that happen. Sorry.",
-        "Sorry, try again.",
-        "I can't let that happen. Sorry.",
-        "I don't give up that easily.",
-        "It's gonna take more than that to stop me.", 
-        "Try again.",
-        "Not so fast.",
-        "Deferred.", 
-        "Deferred, then waitlisted. How could you?!?",
-        "Woah woah woah.",
-        "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
-        "This is what happens when you give a second semester senior too much free time",
-        "Wrong button.",
-
-    ]
-
-    $("#nope").on({
-        mouseover: function () {
-            var right = Math.random() * screenWidth * .90;
-            var top = Math.random() * screenHeight * .90;
-            console.log("Right:" + right);
-            console.log("Top: " + top);
-            $(this).css({
-                position: "fixed",
-                right: right + "px",
-                top: top + "px",
-            });
-            var error = errorMessages[Math.floor(Math.random()*errorMessages.length)]
-            console.log(error)
-            $("#message").text(error);
-        },
-        click: function () {
-             var right = Math.random() * screenWidth * .90;
-            var top = Math.random() * screenHeight * .90;
-            console.log("Right:" + right);
-            console.log("Top: " + top);
-            $(this).css({
-                position: "fixed",
-                right: right + "px",
-                top: top + "px",
-            });
-            var error = errorMessages[Math.floor(Math.random()*errorMessages.length)]
-            console.log(error)
-            $("#message").text(error);
-        }
-    });
     $("#yep").on({
         click: function () {
             $("#message").text("Now, can we do it for real this time? :)")
@@ -113,3 +67,41 @@ $(function () {
         }
     });
 });
+
+function escape() {
+    var screenHeight = screen.availHeight;
+    var screenWidth = screen.availWidth;
+
+    var errorMessages = [
+        "Nope, can't let that happen. Sorry.",
+        "Sorry, try again.",
+        "I can't let that happen. Sorry.",
+        "I don't give up that easily.",
+        "It's gonna take more than that to stop me.",
+        "Try again.",
+        "Not so fast.",
+        "Deferred.",
+        "Deferred, then waitlisted. How could you?!?",
+        "Woah woah woah.",
+        "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
+        "This is what happens when you give a second semester senior too much free time",
+        "Wrong button.",
+
+    ]
+
+
+    console.log("Height: " + screenHeight);
+    console.log("Width: " + screenWidth);
+    var right = Math.random() * screenWidth * .90;
+    var top = Math.random() * screenHeight * .90;
+    console.log("Right:" + right);
+    console.log("Top: " + top);
+    $(this).css({
+        position: "fixed",
+        right: right + "px",
+        top: top + "px",
+    });
+    var error = errorMessages[Math.floor(Math.random() * errorMessages.length)]
+    console.log(error)
+    $("#message").text(error);
+}
