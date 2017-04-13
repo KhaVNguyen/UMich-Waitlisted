@@ -77,7 +77,7 @@ function escape() {
         "Deferred, then waitlisted. How could you?!?",
         "Woah woah woah.",
         "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
-        "This is what happens when you give a second semester senior too much free time",
+        "This is what happens when you give a second semester senior too much free time.",
         "Wrong button.",
         "Faster, please.",
         "Really? :'(",
@@ -85,7 +85,10 @@ function escape() {
         "Getting deferred from UMich is like asking your high school crush to Prom, and her saying she'll get back to you in 3 months. Getting waitlisted after that is like her saying she'll go with you if her first thousands of choices decide not to go.",
         "Getting deferred from UMich is like asking your high school crush to Prom, and her saying she'll get back to you in 3 months. Getting waitlisted after that is like her saying she'll go with you if her first thousands of choices decide not to go.",
         "pls no",
-        "This site was created using HTML, CSS, JavaScript, and denial."
+        "This site was created using HTML, CSS, JavaScript, and denial.",
+        "You just activated my trap card.",
+        "Martin had a dream."
+
 
 
 
