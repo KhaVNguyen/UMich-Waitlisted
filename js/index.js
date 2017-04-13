@@ -15,7 +15,11 @@ $(function () {
         "Not so fast.",
         "Deferred.", 
         "Deferred, then waitlisted. How could you?!?",
-        "Woah woah woah."
+        "Woah woah woah.",
+        "Michigan may be cold, but my heart froze when I saw I got waitlisted.",
+        "This is what happens when you give a second semester senior a whole lot of free time and bitterness.",
+        "Wrong button.",
+        
     ]
 
     $("#nope").on({
